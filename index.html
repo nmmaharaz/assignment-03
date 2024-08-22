@@ -20,16 +20,28 @@
           .manrope{
             font-family: "Manrope", sans-serif;
           }
+          .view-btn-color{
+            background: rgba(171, 239, 95, 0.5);
+          }
+          .navbar-btn-color{
+            background: rgb(171, 239, 95);
+          }
+          .section-one-bg-color{
+            background-color: rgba(232, 229, 229, 0.744);
+          }
+          .section-title-color{
+            color: rgb(73, 73, 73);
+          }
         </style>
 
 </head>
 <body class="manrope">
-        <header class="pt-7 px-5">
+        <header class="pt-7 px-5 lg:w-[80%] mx-auto">
               <div class="">
-                <div class=" flex w-[80%] justify-between	items-center container mx-auto relative">
+                <div class=" flex justify-between	items-center container relative">
 
                         <div class="flex items-center">
-                        <div class="hidden lg:block lg:bg-lime-400 lg:rounded-full lg:p-1 lg:text-xs lg:rotate-[-30deg] lg:mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                        <div class="hidden lg:block navbar-btn-color lg:rounded-full lg:p-1 lg:text-xs lg:rotate-[-30deg] lg:mr-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg></div>
                         <a class="text-3xl lg:text-4xl blod font-extrabold">Rinterio</a>
@@ -59,7 +71,7 @@
                 </div>
 
                 <div class="hidden sm:flex lg:flex sm-items-center items-center">
-                    <button class="btn bg-lime-400 rounded-3xl px-5 font-bold	text-xl">Book Consult 
+                    <button class="btn navbar-btn-color rounded-3xl px-5 font-bold	text-xl">Book Consult 
                     <div class="bg-black rounded-full p-1 text-xs rotate-[-30deg]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-white">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                   </svg></div></button>
@@ -91,7 +103,7 @@
                               <li><a class="mr-9 hover:text-red-400">Blogs</a></li>
                               <li><a class="mr-9 hover:text-red-400">Contact </a></li>
                               <div class="sm:flex lg:flex sm:mr-1 lg:mr-1 mt-2 sm-items-center items-center">
-                                <button class="btn bg-lime-400 rounded-3xl px-5 mr-13 font-bold	text-xl">Book Consult 
+                                <button class="btn navbar-btn-color rounded-3xl px-5 mr-13 font-bold	text-xl">Book Consult 
                                 <div class="bg-black rounded-full p-1 text-xs rotate-[-30deg]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-white">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                               </svg></div></button>
@@ -103,18 +115,65 @@
 
 <!-- Hero area start -->
 
-        <div>
-          <div>
-            <div><img src="assets/Vector.png" alt=""></div>
-          </div>
-          <div>
-
-          </div>
+        
+          <div class="flex flex-col	 items-center text-center">
+            <div class="mb-[12px]"><img src="assets/banner.png" alt=""></div>
+            <h1 class=" lg:text-[64px] mb-[20px] text-[28px] lg:leading-[78px]	font-extrabold lg:w-[1084px]">A barn house of this design has a striking appearance</h1>
+            <p class="text-slate-700 mb-[20px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accent, and large windows that flood the space with natural light.</p>
+            <div class=" mb-[20px]sm:flex lg:flex sm-items-center items-center">
+              <button class="btn view-btn-color rounded-3xl px-5 font-bold	text-xl">View Details 
+              <div class="bg-black rounded-full p-1 text-xs rotate-[-30deg]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg></div></button>
         </div>
+          </div>
 
         </header>
 
         <main>
+          <section>
+           <div class="section-one-bg-color">
+            <div class="flex items-center justify-between lg:w-[80%] mx-auto">
+              <div class="flex flex-col	relative max-w-[600px]">
+                <div class="absolute top-9 left-[-50px]"><img src="assets/Vector.png" alt=""></div>
+                        <div class="sm:flex lg:flex lg:mr-1 mb-6 sm-items-center items-center">
+                        <button class="btn bg-white text-slate-700 rounded-3xl mt-[100px]  px-4 py-[1px] mr-13 font-bold	text-base">
+                          <div class="rounded-full p-1 text-xs"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-black">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                          </svg></div>
+                          About Us 
+                          </button>
+                          </div>
+                <h2 class="mb-6 text-[40px] font-extrabold leading-[55px] max-w-[450px]">We design thoughtful, liveable spaces</h2>
+                <p class="mb-6 text-slate-700 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accent. </p>
+                <div>
+                  <div  class="max-w-[600px] bg-white flex mb-6 p-6 rounded-[15px]">
+                    <img src="assets/commercial.png" alt="">
+                  <div class="px-6 max-w-[500px]">
+                    <h3 class="text-xl font-extrabold section-title-color mb-[10px]">Commercial</h3>
+                    <p class="text-slate-600">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                  </div>
+   
+                  <div class="max-w-[600px] bg-white flex p-6 rounded-[15px]">
+                    <img src="assets/residential.png" alt="">
+                  <div class="px-6 max-w-[500px]">
+                    <h3 class="text-xl font-extrabold section-title-color mb-[10px]">Residential</h3>
+                    <p class="text-slate-600">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div><img src="assets/Rectangle.png" alt=""></div>
+            </div>
+            </div>
+           </div>
+          </section>
+
+          <section>
+
+          </section>
 
         </main>
 
